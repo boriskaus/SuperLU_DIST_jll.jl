@@ -20,6 +20,16 @@ os = "macos"
     url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
 [[SuperLU_DIST]]
 arch = "x86_64"
+git-tree-sha1 = "5ee266c77972e985adc3ed40e62e00a3e058ab5a"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "2d11dc01fa1617532fb94e7b19cffa18b00e873650527aa728815fdf394185b8"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[SuperLU_DIST]]
+arch = "x86_64"
 git-tree-sha1 = "859a918baffda6d1a47d2df32618992a85730346"
 libc = "glibc"
 libgfortran_version = "4.0.0"
@@ -42,21 +52,21 @@ os = "linux"
     url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
 [[SuperLU_DIST]]
 arch = "x86_64"
-git-tree-sha1 = "3f2a580f1a4cd8cbc72515904dd6dd47be1954cd"
+git-tree-sha1 = "fbb9133b3857f6600faed6edadec1a89bc36b5c4"
 libgfortran_version = "4.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[SuperLU_DIST.download]]
-    sha256 = "75c2ca38a5c892661d63d08a9760ddadfefe52b5b168c707f3679d5a9409d75f"
+    sha256 = "6306c3bdb7eeb8f5c4af7ae96fb92eb82d9e2c87da94604928760e0c50c7e07b"
     url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
 [[SuperLU_DIST]]
 arch = "x86_64"
-git-tree-sha1 = "217864d435a953abf9f11fd9d1a519a846aea59a"
+git-tree-sha1 = "1eaa796625c6694b81fa4723d8126c3f8f862240"
 libgfortran_version = "5.0.0"
 mpi = "microsoftmpi"
 os = "windows"
 
     [[SuperLU_DIST.download]]
-    sha256 = "bf80c7f6b05f9afc6929d0321d6688640feae3f7724d5a42e80f5594b3d9fbb6"
+    sha256 = "00304d3ee0cdbbe4f4cb034138278f9de63dfed172dd5b5ef131ab097428e588"
     url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
