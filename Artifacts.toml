@@ -1,0 +1,62 @@
+[[SuperLU_DIST]]
+arch = "aarch64"
+git-tree-sha1 = "4dc992b95c0e776ecbbf183962219b2bd15979c7"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "9e4710629880795149347fa9bc8c62d862f8feb535b024579d2f78124fd4c25e"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.aarch64-apple-darwin-libgfortran5-mpi+mpich.tar.gz"
+[[SuperLU_DIST]]
+arch = "x86_64"
+git-tree-sha1 = "5ee266c77972e985adc3ed40e62e00a3e058ab5a"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "2d11dc01fa1617532fb94e7b19cffa18b00e873650527aa728815fdf394185b8"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
+[[SuperLU_DIST]]
+arch = "x86_64"
+git-tree-sha1 = "859a918baffda6d1a47d2df32618992a85730346"
+libc = "glibc"
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "6a9f5f86e94ee711c6685e027c953fe7ac4225f17b160139b40343316dc1b137"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-linux-gnu-libgfortran4-mpi+mpich.tar.gz"
+[[SuperLU_DIST]]
+arch = "x86_64"
+git-tree-sha1 = "9c535f313f10a5cbe213d4135181424781e9111d"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "58a89bb0b72f67f171ad9f3634e28eeb3107ac5c22541c7f75e1355fff17b553"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-linux-gnu-libgfortran5-mpi+mpich.tar.gz"
+[[SuperLU_DIST]]
+arch = "x86_64"
+git-tree-sha1 = "3f2a580f1a4cd8cbc72515904dd6dd47be1954cd"
+libgfortran_version = "4.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "75c2ca38a5c892661d63d08a9760ddadfefe52b5b168c707f3679d5a9409d75f"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-w64-mingw32-libgfortran4-mpi+microsoftmpi.tar.gz"
+[[SuperLU_DIST]]
+arch = "x86_64"
+git-tree-sha1 = "217864d435a953abf9f11fd9d1a519a846aea59a"
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[SuperLU_DIST.download]]
+    sha256 = "bf80c7f6b05f9afc6929d0321d6688640feae3f7724d5a42e80f5594b3d9fbb6"
+    url = "https://github.com/boriskaus/SuperLU_DIST_jll.jl/releases/download/SuperLU_DIST-v8.2.1+0/SuperLU_DIST.v8.2.1.x86_64-w64-mingw32-libgfortran5-mpi+microsoftmpi.tar.gz"
